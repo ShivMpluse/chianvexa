@@ -9,7 +9,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
 
   return (
-    <main className="bg-white text-gray-900 pt-14 px-12">
+    <main className="bg-white text-gray-900 pt-14 px-2 md:px-8 lg:px-20">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
