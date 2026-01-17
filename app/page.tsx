@@ -16,14 +16,17 @@ export default function Home() {
           
           {/* Logo */}
           <div className="w-28 sm:w-32 md:w-36 flex items-center">
-            <Image
-              src={logo}
-              alt="Chainvexa Logo"
-              width={160}
-              height={40}
-              className="w-full h-auto"
-              priority
-            />
+            <Link href='/'>
+              <Image
+                src={logo}
+                alt="Chainvexa Logo"
+                width={160}
+                height={40}
+                className="w-full h-auto"
+                priority
+              />
+            </Link>
+            
           </div>
 
           {/* Desktop Menu */}
